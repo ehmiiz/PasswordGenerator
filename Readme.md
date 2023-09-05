@@ -96,3 +96,6 @@ Since the nuget package is based on netstandard2.0, the module currently works o
 - Fixed a bug with a certain parameter combination to not output the correct password
 - Refactored the cmdlet
 - Removed DLL from repo and changed the github action to build instead
+
+1.0.3
+- Fixed a bug with module loading due to changes in `1.0.2`
