@@ -91,3 +91,8 @@ Since the nuget package is based on netstandard2.0, the module currently works o
 - Changed verb from 'Get' to 'New'
 - Fixed a bug with IncludeUppercase & IncludeNumeric
 - Fixed Module Auto-Loading
+
+1.0.2
+- Fixed a bug with a certain parameter combination to not output the correct password
+- Refactored the cmdlet
+- Removed DLL from repo and changed the github action to build instead
