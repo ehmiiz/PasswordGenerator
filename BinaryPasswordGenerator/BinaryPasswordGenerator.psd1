@@ -9,10 +9,10 @@
 @{
 
 # Script module or binary module file associated with this manifest.
-RootModule = '.\BinaryPasswordGenerator.psm1'
+RootModule = '.\obj\Debug\netstandard2.0\PasswordGenerator.dll'
 
 # Version number of this module.
-ModuleVersion = '1.0.2'
+ModuleVersion = '1.0.3'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -78,7 +78,7 @@ CmdletsToExport = 'New-Password'
 VariablesToExport = '*'
 
 # Aliases to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no aliases to export.
-AliasesToExport = 'npwd'
+# AliasesToExport = 'npwd'
 
 # DSC resources to export from this module
 # DscResourcesToExport = @()
